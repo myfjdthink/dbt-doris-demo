@@ -1,0 +1,13 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: mysql5
+      server: server
+      port: port
+      schema: dbt_test
+      username: root
+      password: password
+      driver: MySQL ODBC 8.0 ANSI Driver
+      sql_mode: ""
+
