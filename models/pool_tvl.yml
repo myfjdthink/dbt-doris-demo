@@ -2,3 +2,8 @@ version: 2
 
 models:
   - name: pool_tvl
+    columns:
+      - name: country_code
+        tests:
+          - not_null
+      - name: country_name
