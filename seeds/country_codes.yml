@@ -1,0 +1,16 @@
+version: 2
+
+seeds:
+  - name: country_codes
+    description: <markdown_string>
+    docs:
+      show: true
+    config:
+      column_types:
+        country_code: varchar(2)
+        country_name: varchar(32)
+        calling_code: int
+    columns:
+      - name: country_code
+      - name: country_name
+      - name: calling_code

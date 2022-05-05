@@ -1,4 +1,5 @@
-country_code,country_name
-US,United States
-CA,Canada
-GB,United Kingdom
+country_code,country_name,calling_code
+US,United States,1
+CA,Canada,1
+GB,United Kingdom,44
+ZH,China,86

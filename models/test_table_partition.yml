@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: pool_tvl
+  - name: test_table_partition
     columns:
       - name: country_code
         tests:

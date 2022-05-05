@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: test_view
+    columns:
+      - name: country_code
+        tests:
+          - not_null
+      - name: country_name
