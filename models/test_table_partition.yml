@@ -7,3 +7,4 @@ models:
         tests:
           - not_null
       - name: country_name
+      - name: calling_code
