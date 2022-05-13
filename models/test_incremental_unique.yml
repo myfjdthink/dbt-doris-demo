@@ -1,4 +1,4 @@
 version: 2
 
 models:
-  - name: test_incremental
+  - name: test_incremental_unique
